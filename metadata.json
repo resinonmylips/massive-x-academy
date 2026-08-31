@@ -1,0 +1,6 @@
+{
+  "name": "Massive X Academy",
+  "description": "The ultimate interactive tutorial app, detailed parameter reference, and expert AI chatbot assistant for mastering Native Instruments' Massive X synthesiser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
