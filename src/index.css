@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-ni-dark: #09090b;
+  --color-ni-deep: #121214;
+  --color-ni-card: #1c1c1f;
+  --color-ni-border: #2a2a2e;
+  --color-ni-orange: #ff5c00;
+  --color-ni-blue: #0091ff;
+  --color-ni-teal: #00f0aa;
+  --color-ni-yellow: #e6b800;
+  --color-ni-amber: #f59e0b;
+}
+
+/* Custom scrollbars for a sleek pro-audio appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ni-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ni-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ni-orange);
+}
+
